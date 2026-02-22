@@ -7,9 +7,10 @@
   "type": "commonjs",
   "main": "index.ts",
   "scripts": {
-    "test": "oxlint *.spec.ts"
+    "test": "oxlint --type-aware *.spec.ts"
   },
   "devDependencies": {
-    "oxlint": "^1.49.0"
+    "oxlint": "^1.49.0",
+    "oxlint-tsgolint": "^0.14.2"
   }
 }
