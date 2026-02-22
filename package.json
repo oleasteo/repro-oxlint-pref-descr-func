@@ -1,0 +1,15 @@
+{
+  "name": "repro-oxlint-pref-descr-func",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "oxlint *.spec.ts"
+  },
+  "devDependencies": {
+    "oxlint": "^1.49.0"
+  }
+}
